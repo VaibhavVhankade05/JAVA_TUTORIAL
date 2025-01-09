@@ -1,6 +1,6 @@
 package com.basics;
 
-public class Introductuion 
+public class Introductuion
 {
 	// Introduction
     // 1. Java is a high-level, object-oriented programming language.
@@ -57,10 +57,32 @@ public class Introductuion
         JDK is used for developing Java applications.
         JDK physically exists
  */
-
+	
+	
+	//	"main" method in Java is the entry point of any Java application
 	public static void main(String[] args) 
 	{
 		System.out.println("Hello, Java!");
 	}
+	
+	//	Naming Conventions in Java
+		/*
+			1. Classes and Interfaces
+				# Use Pascal Case.
+					public class CustomerDetails { }
+					public interface PaymentProcessor { }
+					
+		
+			2. Methods
+				# Use camelCase.
+					public void calculateTotal() { }
+					public boolean isValid() { }
+					
+			
+			3. Variables
+				# Use camelCase.
+					int customerAge;
+					String customerName;
+		*/
 
 }
