@@ -2,7 +2,7 @@ package com.oop.concepts;
 
 import java.util.Scanner;
 
-public class Methods 
+public class JavaMethods 
 {
 	/*
 		Method in Java
@@ -72,16 +72,16 @@ public class Methods
     
     public static void main(String[] args) {
 		
-    	Methods methods = new Methods();
+    	JavaMethods javaMethods = new JavaMethods();
     	
-    	methods.add1();
+    	javaMethods.add1();
     	
-    	methods.Add2(10, 20);
+    	javaMethods.Add2(10, 20);
     	
-    	int d = methods.Add3();
+    	int d = javaMethods.Add3();
     	System.out.println(d);
     	
-    	int c = methods.Add4(10, 20);
+    	int c = javaMethods.Add4(10, 20);
     	System.out.println(c);
 	}
 }
