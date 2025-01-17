@@ -7,6 +7,10 @@ public class SingleInheritance
 	
     public static void main(String[] args) 
     {
+    	Animal animal = new Animal();
+    	animal.Eat();
+//    	animal.Brak();
+    	
 
         Dog D = new Dog();
         D.Eat();
