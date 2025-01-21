@@ -26,7 +26,7 @@ public class Static_NonStatic_Block
 	public static void main(String[] args) 
 	{
 		Static_NonStatic_Block block = new Static_NonStatic_Block();
-		
+//		
 		Static_NonStatic_Block block1 = new Static_NonStatic_Block(); 
 
 

@@ -1,5 +1,7 @@
 package com.control.statement;
 
+import java.util.Scanner;
+
 public class ControllerStatement 
 {
 	/*
@@ -173,5 +175,6 @@ public class ControllerStatement
 		controllerStatement.switchCase();
 		
 		controllerStatement.loop();
+		
 	}
 }
