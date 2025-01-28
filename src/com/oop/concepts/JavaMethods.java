@@ -34,7 +34,9 @@ public class JavaMethods
 		a = sc.nextInt();
 		System.out.println("Enter second value:");
 		b = sc.nextInt();
+		
 		c = a + b;
+		
 		System.out.println("Addition Of :" + c);
 
 	}
@@ -44,7 +46,7 @@ public class JavaMethods
 	// 2. without_return_with_parameter
 	void Add2(int a, int b)
 	{
-		System.out.println("Addition: "+ a+b);
+		System.out.println("Addition: "+ (a+b));
 	}
 	
 	
@@ -59,7 +61,7 @@ public class JavaMethods
         a = sc.nextInt();
         b = sc.nextInt();
         c = a+b;
-        return c;
+       return c;
     }
     
     

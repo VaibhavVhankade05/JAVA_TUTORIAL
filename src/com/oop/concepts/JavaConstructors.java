@@ -3,8 +3,8 @@ package com.oop.concepts;
 
 public class JavaConstructors 
 {
-	String name= "Shital";
-	int age = 24;
+	String name;
+	int age;
 	String gender;
 	
 	/*
@@ -38,6 +38,7 @@ public class JavaConstructors
 	    public JavaConstructors(String name, int age, String gender) {
 	        this.name = name;
 	        this.age = age;
+	        this.gender = gender;
 	        System.out.println("Parameterized Constructor Called!");
 	    }
 
@@ -58,8 +59,8 @@ public class JavaConstructors
 //	        System.out.println("------------------");
 //
 	        // Using the Parameterized Constructor
-	        JavaConstructors obj2 = new JavaConstructors("Vaibhav", 22, "Male");
-//	        obj2.display();
+	        JavaConstructors obj4 = new JavaConstructors("Vaibhav", 22, "Male");
+	        obj4.display();
 
 	    }
 

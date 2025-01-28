@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Encapsulation 
 {
 	/*
-		Encapsulation in Java is a process of wrapping code and data together into a single unit
+		Encapsulation in Java is a process of wrapping code and data together into a single unit.
 		We can create a fully encapsulated class in Java by making all the data members of the class private.
 		
 		# Advantage of Encapsulation in Java
@@ -17,7 +17,7 @@ public class Encapsulation
 		
 	*/
 	
-	private Long roll_no;
+	private long roll_no;
 	private String name;
 	private String email;
 	private String phoneNumber;
@@ -29,7 +29,7 @@ public class Encapsulation
 
 
 	public Encapsulation() {
-
+		
 	}
 
 
