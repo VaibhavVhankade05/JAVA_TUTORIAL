@@ -8,12 +8,12 @@ public class SingleInheritance
     public static void main(String[] args) 
     {
     	Animal animal = new Animal();
-    	animal.Eat();
+    	animal.eat();
 //    	animal.Brak();
     	
 
         Dog D = new Dog();
-        D.Eat();
+        D.eat();
         D.Brak();
     }
   
@@ -24,9 +24,9 @@ public class SingleInheritance
 
 class Animal
 {
-    void Eat()
+    void eat()
     {
-        System.out.println("All Animal Eat Food");
+        System.out.println("All Animals Eat Food");
     }
     
 }
@@ -37,6 +37,6 @@ class Dog extends Animal
 {
     void Brak()
     {
-        System.out.println("All Dogs Braking On Mitesh");
+        System.out.println("All Dogs Brak");
     }
 }
