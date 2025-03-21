@@ -2,6 +2,23 @@ package com.multithreading;
 
 public class Wait_Notify extends Thread
 {
+	/*
+		Synchronization
+			Synchronization in Java is a critical concept in concurrent programming that ensures multiple threads can interact with shared resources safely. 
+			In a nutshell, synchronization prevents race conditions, where the outcome of operations depends on the timing of thread execution. 
+			It is the capability to control the access of multiple threads to any shared resource. Synchronization is a better option where we want to allow only one thread to access the shared resource.
+	*/
+		
+		class SynchronizedCounter {  
+		    private int count = 0;      
+		    public synchronized void increment() {  
+		        count++;  
+		    }      
+		    public synchronized int getCount() {  
+		        return count;  
+		    }  
+		}  
+	
 	public static void main(String[] args) 
 	{
         SharedResource resource = new SharedResource();

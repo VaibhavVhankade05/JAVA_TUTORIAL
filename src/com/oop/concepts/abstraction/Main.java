@@ -2,9 +2,10 @@ package com.oop.concepts.abstraction;
 
 public class Main 
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
-		Implementiion implementiion = new Implementiion();
+		Implemention implementiion = new Implemention();
 		
 		implementiion.add();
 		
@@ -16,7 +17,7 @@ public class Main
 		
 		
 		
-		Calculator calculator = new Implementiion();
+		Calculator calculator = new Implemention();
 		
 		calculator.add();
 		

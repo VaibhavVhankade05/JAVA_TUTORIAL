@@ -1,6 +1,6 @@
 package com.oop.concepts.abstraction;
 
-public class Implementiion extends Calculator
+public class Implemention extends Calculator
 {
 
 	@Override

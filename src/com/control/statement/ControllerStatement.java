@@ -1,6 +1,5 @@
 package com.control.statement;
 
-import java.util.Scanner;
 
 public class ControllerStatement 
 {

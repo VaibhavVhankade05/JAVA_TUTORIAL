@@ -40,12 +40,12 @@ public class Variables
 			# Belong to the class rather than any object.
 			# Shared among all instances of the class.
 	*/
-		static String clg = "Zeal";
+		final static String clg = "Zeal";
 		int roll_no;
 		
 		public void staticVariable()
 		{
-			System.out.println("Roll No: "+ roll_no + "Name: "+ name + "clg: "+ clg);
+			System.out.println("Roll No: "+ roll_no + "  Name: "+ name + "  clg: "+ clg);
 		}
 
 	public static void main(String[] args) 

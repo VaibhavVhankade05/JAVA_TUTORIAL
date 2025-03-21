@@ -46,7 +46,8 @@ public class Polymorphism
 	*/
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		
 		/* ------------------------ OVERLOADING ------------------------------- */
@@ -57,9 +58,9 @@ public class Polymorphism
 		
 		System.out.println(calculator.add(5));
 		
-		calculator.add(5, 5);
+		System.out.println(calculator.add(5, 5));
 		
-		calculator.add(5, 5, 5);
+		System.out.println(calculator.add(5, 5, 5));
 		
 		
 		/* ------------------------ OVERRIDING ------------------------------- */
@@ -120,7 +121,7 @@ class Animal {
     
     void fear()
     {
-    	System.out.println("Animal shital mam ghabartat.....");
+    	System.out.println("Animals Person ghabartat.....");
     }
 }
 
@@ -132,7 +133,7 @@ class Dog extends Animal {
     
     void bite()
     {
-    	System.out.println("Dog Bite Shital Mam");
+    	System.out.println("Dog Bites");
     }
 }
 
